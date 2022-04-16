@@ -3,3 +3,28 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+@layer base {
+    :root {
+        --color-bg-l1: 254, 202, 202;
+        --color-bg-l2: 252, 165, 165;
+        --color-bg-l3: 248, 113 ,113;
+        --color-bg-l4: 239, 68, 68;
+    }
+
+    .theme-blue {
+        --color-bg-l1: 191, 219, 254;
+        --color-bg-l2: 147, 197, 253;
+        --color-bg-l3: 96, 165, 250;
+        --color-bg-l4: 59, 130, 246;
+    }
+
+    .theme-green {
+        --color-bg-l1: 187, 247, 208;
+        --color-bg-l2: 134, 239, 172;
+        --color-bg-l3: 74, 222, 128;
+        --color-bg-l4: 34, 197, 94;
+    }
+}
+
