@@ -6,7 +6,7 @@ interface IProps {
 
 const App: FC<IProps> = (): ReactElement => {
 
-
+    //按钮组件
     const Btn: FC<{ value: string, onClick?: ReactEventHandler }> = ({value,onClick}) => {
         return <input className={`transition-colors cursor-pointer p-2 rounded bg-red-400  hover:bg-red-500 `}
                       type="button"
